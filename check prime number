@@ -1,0 +1,19 @@
+//Number is prime if the given number is divisible by 1 and itself
+#include <stdio.h>
+int n,i,product=1;
+int main() {
+    printf("enter the value of the n");
+    scanf("%d",&n);
+    for( i=2;i<n;i++){
+        if(n%i==0){
+        printf("Given number not prime");
+        break;//break out from loop
+    }
+   }
+   if(n==1){
+    printf("Given number is not prime");
+}if(i==n)
+ printf("Given number is prime");
+    return 0;
+}
+//challenge=what is the difference between the continue and the break
